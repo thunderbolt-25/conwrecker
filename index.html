@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConWrecker</title>
+    <!-- link to Bootstrap minified css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link to Jquery minified-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- link to Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- link to retype animated text -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- link to external CSS -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+        <style>
+            .bg-nav{
+                background-color: #4ecfb9;
+            }
+        </style>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php">        
+                <img src="logo2.png" style="width: 220px; height: 50px;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">        
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </div>        
+                </div>
+            </div>
+            
+        </nav>
+        &nbsp;
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 style="font-size: 60px; margin-top:10%;">Verify Insurance Claim <br>in
+                        <!-- Element to contain animated typing -->
+                        <span id="element"></span>
+                        
+                        <!-- Load library from the CDN -->
+                        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                        
+                        <!-- Setup and start animation! -->
+                        <script>
+                            var typed = new Typed('#element', {
+                                strings: ['Smart Way','My Way'],
+                                typeSpeed: 80,
+                                loop: true
+                            });
+                        </script>
+                        <br>in One Click</h1>
+                        <a href="verify.html">
+                        <button type="button" style="margin-top:50px; font-size: 20px; background-color:#4ecfb9" class="btn btn-success">Start Verification&nbsp;
+                            <img src="arrow-right.svg"> </button>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="sideimg2.png" class="img-fluid animated" alt="">
+                    </div>
+                </div>
+                
+            <br>
+            <br>
+
+            <h1 style="font-size: 60px; text-align:center;">Why <a style="background-color: #4ecfb9; color:aliceblue">Choose</a> Our Services ?</h1><br>
+            <p style="text-align: center;">You can customise your insurance policy and choose to <br>safeguard exactly what you want. We'll take care of the rest.</p>
+
+            <section class="section1">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
+    </body>
+    </html>
